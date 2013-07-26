@@ -76,7 +76,7 @@
     <Reference Include="AjaxMin">
       <SpecificVersion>False</SpecificVersion>
       <HintPath Condition="'$(TargetFrameworkVersion)' == 'v3.5'">..\packages\AjaxMin.4.84.4790.14417\lib\net35\AjaxMin.dll</HintPath>
-      <HintPath Condition="'$(TargetFrameworkVersion)' == 'v4.0'">..\packages\AjaxMin.4.84.4790.14417\lib\net40\AjaxMin.dll</HintPath>
+      <HintPath Condition="'$(TargetFrameworkVersion)' == 'v4.0'">..\..\..\..\..\Source\Moda.Web\bin\AjaxMin.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\packages\Iesi.Collections.3.3.2.4000\lib\Net35\Iesi.Collections.dll</HintPath>
